@@ -1,0 +1,20 @@
+<html>
+
+	<body>
+
+        <form class="grid" action="/result" method="POST">
+
+
+          <label for="name">Enter Link :</label>
+          <input type="text" id="name" name="name1">
+            <label for="name">Enter keyword :</label>
+            <input type="text" id="name" name="name2">
+
+          <input class="file_submit" type="Submit">
+
+        </form>
+
+
+    </body>
+
+</html>

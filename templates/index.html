@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Keyword Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+    button[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button[type=submit]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Text Generator</h1>
+  <form  class="grid" action="/result" method="POST">
+
+    <label for="url">Enter a URL:</label>
+    <input type="text" id="url" name="name1" placeholder="https://example.com" required>
+
+    <label for="keyword">Enter a keyword:</label>
+    <input type="text" id="keyword" name="name2" placeholder="Keyword" required>
+
+    <button type="submit" onclick="search()">Search</button>
+  </form>
+
+
+</body>
+</html>
